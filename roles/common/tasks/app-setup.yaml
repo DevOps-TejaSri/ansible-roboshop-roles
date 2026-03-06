@@ -27,7 +27,7 @@
     dest: /tmp/{{ component }}.zip
 
 - name: unarchive file
-  nsible.builtin.unarchive:
+  ansible.builtin.unarchive:
     src: /tmp/{{ component }}.zip
     dest: /app
     remote_src: yes
