@@ -1,4 +1,5 @@
 - name: roles demo
+  become: yes
   hosts: local
   connection: local
   roles:
